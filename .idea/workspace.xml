@@ -5,36 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44ba4be2-4ab8-4f83-b075-37c61ea5e0b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/advent-of-code-2020.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_5_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_5_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_test_1_5_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_test_junit_1_5_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aufgaben.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/de/prosoz/kata/adventofcode/Day1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/advent-of-code-input-day-1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/advent-of-code-2020-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/advent-of-code-2020.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/advent-of-code-input-day-1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/de/prosoz/kata/adventofcode/Day1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/de/prosoz/kata/adventofcode/Day1Kt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/de/prosoz/kata/adventofcode/Day1KtTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/de/prosoz/kata/adventofcode/Day1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/de/prosoz/kata/adventofcode/Day1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/de/prosoz/kata/adventofcode/Day1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/de/prosoz/kata/adventofcode/Day1Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/de/prosoz/kata/adventofcode/Day1Kt.class" afterDir="false" />
+    </list>
+    <list id="265cd2ff-36cd-4795-92aa-afed93449654" name="Changes by s.borzyk" comment="" />
+    <list id="711460c7-f194-409c-bca2-e59b500d5d85" name="Changes by s.strate" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/de/prosoz/kata/adventofcode/Day1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/de/prosoz/kata/adventofcode/Day1.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,10 +24,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="JUnit3 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -58,6 +43,14 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/main/kotlin/de/prosoz/kata/adventofcode/Day1.kt">
+      <ranges>
+        <range start1="6" end1="8" start2="6" end2="12" changelist="711460c7-f194-409c-bca2-e59b500d5d85" />
+        <range start1="9" end1="9" start2="13" end2="24" changelist="44ba4be2-4ab8-4f83-b075-37c61ea5e0b9" />
+      </ranges>
+    </file>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -80,6 +73,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Facets" />
@@ -91,8 +86,30 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="junit.framework.TestCase" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="de.prosoz.kata.adventofcode" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Day1Kt">
+    <configuration name="Day1KtTest.testDay1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code-2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.prosoz.kata.adventofcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.prosoz.kata.adventofcode" />
+      <option name="MAIN_CLASS_NAME" value="de.prosoz.kata.adventofcode.Day1KtTest" />
+      <option name="METHOD_NAME" value="testDay1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Day1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code-2020" />
       <option name="VM_PARAMETERS" />
@@ -109,6 +126,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Day1Kt" />
+        <item itemvalue="JUnit.Day1KtTest.testDay1" />
       </list>
     </recent_temporary>
   </component>
