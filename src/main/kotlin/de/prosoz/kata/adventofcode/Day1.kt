@@ -12,13 +12,12 @@ fun main() {
     print(output)
 }
 
-fun productOfDay1(inputs: List<Int>): Int? {
-    inputs.forEach { i ->
-        inputs.forEach { j ->
-            if (i + j == 2020) {
-                return i * j
-            }
-        }
-    }
-    return null
+fun productOfDay1(inputs: List<Int>): Int {
+    val (i, j) = inputs
+        .complement()
+        .first { (i, j) -> i + j == 2020 }
+    return i * j
 }
+//365619
+
+fun List<Int>.complement(): List<Pair<Int, Int>> = map { it to 2020 - it}
