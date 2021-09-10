@@ -18,4 +18,9 @@ class Day1KtTest : TestCase() {
     fun testDay1() {
         assertEquals(514579, productOfDay1(input))
     }
+
+//    @Test
+//    fun testDay1_2() {
+//        assertEquals(241861950, productOfDay1(input))
+//    }
 }
