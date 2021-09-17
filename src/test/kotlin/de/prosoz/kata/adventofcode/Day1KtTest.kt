@@ -5,7 +5,7 @@ import org.junit.Test
 
 class Day1KtTest : TestCase() {
 
-    private val input = listOf<Int>(
+    private val input = listOf(
         1721,
         979,
         366,
@@ -15,12 +15,12 @@ class Day1KtTest : TestCase() {
     )
 
     @Test
-    fun testDay1() {
-        assertEquals(514579, productOfDay1(input))
+    fun testDay1_1() {
+        assertEquals(514579, productOfDay1_1(input))
     }
 
-//    @Test
-//    fun testDay1_2() {
-//        assertEquals(241861950, productOfDay1(input))
-//    }
+    @Test
+    fun testDay1_2() {
+        assertEquals(241861950, productOfDay1_2(input))
+    }
 }

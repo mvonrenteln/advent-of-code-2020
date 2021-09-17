@@ -8,11 +8,11 @@ fun main() {
         .readLines()
         .map { it.toInt() }
 
-    val output = productOfDay1(inputs)
-    print(output)
+    val output = productOfDay1_2(inputs)
+    println(output)
 }
 
-fun productOfDay1(inputs: List<Int>): Int? {
+fun productOfDay1_1(inputs: List<Int>): Int? {
     var durchläufe = 0
     val indices = inputs.indices
 
@@ -31,14 +31,19 @@ fun productOfDay1(inputs: List<Int>): Int? {
 
 fun productOfDay1_2(inputs: List<Int>): Int? {
     var durchläufe = 0
-    inputs.forEach { i ->
-        inputs.forEach { j ->
-            durchläufe++
-            if (i + j == 2020) {
-                println("Durchläufe: $durchläufe")
-                return i * j
+    val indices = inputs.indices
+
+    for (i in indices) {
+        for (j in i + 1 until inputs.size) {
+            for (k in j + 1 until inputs.size) {
+                durchläufe++
+                if (inputs[i] + inputs[j] + inputs[k] == 2020) {
+                    println("Durchläufe: $durchläufe")
+                    return inputs[i] * inputs[j] * inputs[k]
+                }
             }
         }
     }
+
     return null
 }
